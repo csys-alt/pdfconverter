@@ -16,8 +16,8 @@ def main():
     )
     
     app = QApplication(sys.argv)
-    app.setApplicationName("PDFBro")
-    app.setOrganizationName("PDFBro")
+    app.setApplicationName("PDFConverter Desktop")
+    app.setOrganizationName("PDFConverter")
     
     # Initialize database
     db = Database()

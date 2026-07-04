@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Packaging and release output
+build/
+dist/
+*.spec
+release/
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# Runtime data
+data/*.db
+data/*.db-*
+data/mobile_inbox/
+
+# Local logs and temp files
+*.log
+*.tmp
